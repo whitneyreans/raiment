@@ -1,0 +1,83 @@
+
+{% extends 'raiment/base.html' %}
+
+{% block content %}
+<div class="community-header">
+	<div class="community-header-words-container">
+	<span class="community-header-words">find those who inspire.</span>
+	</div>
+</div>
+<div class="row">
+	<div class="col-md-5 users-like">
+		<header class="users-title">USERS YOU MAY LIKE</header>
+		<ul>
+			<li>
+				<div class="user-info">
+					<div style="float: left; margin-right: 20px; background-image: url('img/liz2.jpg')" class="user-img">
+					</div>
+					<header class="user-name"><a href="#">Liz Robinson</a></header>
+					<p>Gold. Gemini. Glitter.<br>
+						Image and brand coordinator living the high life in Chicago.</p>
+				</div>	
+			</li>
+
+			<li>
+				<div class="user-info">
+					<div style="float: left; margin-right: 20px; background-image: url('img/kristin.jpg')" class="user-img">
+					</div>
+					<header class="user-name"><a href="#">Kristin Price</a></header>
+					<p>Professional trash panda dropping it low in Tulsa, Oklahoma.</p>
+				</div>
+			</li>
+
+			<li>
+				<div class="user-info">
+					<div style="float: left; margin-right: 20px; background-image: url('img/paula.jpg')" class="user-img">
+					</div>
+					<header class="user-name"><a href="#">Paula Brieg</a></header>
+					<p>Full-time glitterstar floating through the universe on hopes and dreams. Lots of confetti.</p>
+				</div>
+			</li>
+		</ul>
+	</div>
+	<div class="col-md-5" id="top-users">
+		<header class="users-title">TRENDING USERS</header>
+		<ul>
+			<li>
+				<div class="user-info">
+					<div style="float: left; margin-right: 20px; background-image: url('img/liz2.jpg')" class="user-img">
+					</div>
+					<header class="user-name"><a href="#">Liz Robinson</a></header>
+					<p>Gold. Gemini. Glitter.<br>
+						Image and brand coordinator living the high life in Chicago.</p>
+				</div>	
+			</li>
+
+			<li>
+				<div class="user-info">
+					<div style="float: left; margin-right: 20px; background-image: url('img/kristin.jpg')" class="user-img">
+					</div>
+					<header class="user-name"><a href="#">Kristin Price</a></header>
+					<p>Professional trash panda dropping it low in Tulsa, Oklahoma.</p>
+				</div>
+			</li>
+
+			<li>
+				<div class="user-info">
+					<div style="float: left; margin-right: 20px; background-image: url('img/paula.jpg')" class="user-img">
+					</div>
+					<header class="user-name"><a href="#">Paula Brieg</a></header>
+					<p>Full-time glitterstar floating through the universe on hopes and dreams. Lots of confetti.</p>
+				</div>
+			</li>
+		</ul>
+	</div>
+</div>
+<div class="row">
+	<div class="col-md-12 search-users">
+	<form action="search_users">
+		<span class="search-users-text">Search Users</span>
+		<input type="search" name="searchUsers" placeholder="Search..">
+	</form>
+</div>
+{% endblock %}
