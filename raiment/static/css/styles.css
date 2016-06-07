@@ -326,7 +326,7 @@ input[type=search] {
 }
 
 .login-form-container {
-	width: 350px;
+	width: 22%;
 	margin: 0 auto;
 	text-align: center;
 	margin-top: 10%;
@@ -356,6 +356,11 @@ input[type=search] {
 	color: #F2F1F0;
 	font-size: 15px;
 	letter-spacing: 2px;
+	margin-bottom: 8px;
+}
+
+#login-form input.login-button:hover {
+	background-color: #37DED6;
 }
 
 .login-logo {
@@ -370,5 +375,52 @@ input[type=search] {
 .login-errors {
 	font-size: 12px;
 	color: #FF4545;
+}
+
+a.reset-password-link, a.signup-link {
+	text-decoration: none;
+	color: #424242;
+	font-weight: bold;
+	font-size: 12px;
+	text-shadow: 1px 1px #fff;
+}
+
+a.reset-password-link {
+	float: left;
+}
+
+a.signup-link {
+	float: right;
+	margin-right: 10px;
+}
+
+a.reset-password-link:hover, a.signup-link:hover {
+	text-decoration: underline;
+}
+
+.signup-button {
+	width: 90px;
+	height: 40px;
+	border-radius: 3px;
+	background-color: #37DED6;
+	border: 0px;
+	color: #F2F1F0;
+	font-size: 15px;
+	letter-spacing: 2px;
+	float: right;
+	margin-top: 10px;
+	margin-right: 50px;
+}
+
+.signup-button a {
+	color: #fff;
+}
+
+.signup-button a:hover {
+	text-decoration: none;
+}
+
+.signup-button:hover {
+	background-color: #FF955C;
 }
 
