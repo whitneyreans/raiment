@@ -6,6 +6,7 @@ urlpatterns = [
     url(r'^$', views.index, name='index'),
     url(r'^community', views.community, name='community'),
     url(r'^mood', views.mood, name='mood'),
-    url(r'^login', views.login, name='login'),
+    url(r'^login$', 'django.contrib.auth.views.login', name='login'),
+    url(r'^logout$', 'django.contrib.auth.views.logout', name='logout'),
 
 ]

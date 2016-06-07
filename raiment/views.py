@@ -11,6 +11,3 @@ def community(request):
 
 def mood(request):
 	return render(request, 'raiment/mood.html')
-
-def login(request):
-	return render(request, 'raiment/login.html')
