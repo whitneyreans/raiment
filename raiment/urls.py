@@ -8,5 +8,8 @@ urlpatterns = [
     url(r'^mood', views.mood, name='mood'),
     url(r'^login$', 'django.contrib.auth.views.login', name='login'),
     url(r'^logout$', 'django.contrib.auth.views.logout', name='logout'),
+    url(r'^signup$', views.signup, name='signup'),
+    url(r'^create_user$', views.create_user, name='create_user'),
+
 
 ]
