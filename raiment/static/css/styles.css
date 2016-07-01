@@ -25,12 +25,18 @@ ul {
 	display: inline-block;
 }
 
-.nav-links a {
+.nav-links a, .user-nav-links a {
 	font-family: 'Karla', sans-serif;
 	color: #2B2B2B;
 	text-decoration: none;
 	margin-left: 35px;
 	font-size: 12px;
+}
+
+.user-nav-links {
+	float: right;
+	padding-top: 14px;
+	margin-right: 10px;
 }
 
 .logo a {
@@ -41,7 +47,7 @@ ul {
 	color: #2B2B2B;
 }
 
-.nav-links a:hover {
+.nav-links a:hover, .user-nav-links a:hover {
 	color: #FAA0B3;
 }
 
@@ -49,11 +55,6 @@ ul {
 	color: #DEDEDE;
 	opacity: 0.9;
 }
-
-
-
-
-
 
 #main {
 	height: 91%;
