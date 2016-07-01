@@ -414,6 +414,7 @@ a.reset-password-link:hover, a.signup-link:hover {
 
 .signup-button a {
 	color: #fff;
+	text-decoration: none;
 }
 
 .signup-button a:hover {
